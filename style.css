@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.home, .carousel, .carousel-item img{
+    width: 100vw;
+    height: 90vh;
+}
+.card-radius, .card-radius .btn, .card-header{
+    border-radius: 26px !important;
+}
